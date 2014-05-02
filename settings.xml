@@ -1,0 +1,19 @@
+<settings>
+  <servers>
+	<server>
+      <id>revsysSnapshot</id>
+      <username>deployment</username>
+      <password>${env.CI_DEPLOY_PASSWORD}</password>
+    </server>
+    <server>
+      <id>revsysRelease</id>
+      <username>deployment</username>
+      <password>${env.CI_DEPLOY_PASSWORD}</password>
+    </server>
+	<server>
+      <id>revsys3rdParty</id>
+      <username>deployment</username>
+      <password>${env.CI_DEPLOY_PASSWORD}</password>
+    </server>
+  </servers>
+</settings>
